@@ -24,7 +24,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -39,7 +39,7 @@ baseurl                  : "/GouravVerma" # the subpath of your site, e.g. "/blo
 repository               : "GARV3007/GouravVerma" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Home" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -108,14 +108,14 @@ analytics:
 # Site Author
 author:
   name             : "Gourav Verma"
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am Data Science Enthusiast."
+  avatar           : "/assets/images/GV.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Data Analytics Learner"
   location         : "Omaha, NE, USA"
   email            : "gourav_verma@outlook.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:gourav_verma@outlook.com"
+      # url: "mailto:gourav_verma@outlook.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -159,6 +159,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - about.markdown
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -260,16 +261,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+   enabled:
+     - categories
+     - tags
+   layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     category: /categories/:name/
+     tag: /tags/:name/
 
 
 # HTML Compression
@@ -279,17 +280,22 @@ compress_html:
   ignore:
     envs: development
 
-
-# Defaults
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+    
+# Defaults 
 defaults:
-  # _posts
+  # _portfolio
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
       related: true
+      
