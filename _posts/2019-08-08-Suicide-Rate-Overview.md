@@ -8,6 +8,7 @@ tags:
   - R
   - Visualization
 link: https://github.com/GARV3007/Suicide-Rate-Overview/blob/main/Suicide.pdf
+author_profile: true
 ---
 
 Exploratory Data Analysis of global Suicides using R programming.

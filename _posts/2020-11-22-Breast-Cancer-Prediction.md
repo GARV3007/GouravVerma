@@ -9,6 +9,7 @@ tags:
   - Logistic Regression
   - sklearn
 toc: true
+author_profile: true
 ---
 
 {% capture fig_img %}

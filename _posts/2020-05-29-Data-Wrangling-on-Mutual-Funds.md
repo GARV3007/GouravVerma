@@ -1,7 +1,7 @@
 ---
 title: "Data Wrangling on Mutual Funds"
 header:
-  teaser: "assets/images/Data_Wrangling.jpg"
+  teaser: "assets/images/data-cleaning.png"
 categories:
   - Data Wrangling
 tags:
@@ -9,10 +9,11 @@ tags:
   - Web Scraping
   - Data Cleaning
 toc: true
+author_profile: true
 ---
 
 {% capture fig_img %}
-![Foo]({{ '/assets/images/Data_Wrangling.jpg' | relative_url }})
+![Foo]({{ '/assets/images/data-cleaning.png' | relative_url }})
 {% endcapture %}
 
 {{ fig_img | markdownify | remove: "

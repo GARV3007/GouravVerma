@@ -13,6 +13,7 @@ tags:
   - scikit-surpise
   - BaselineOnly
 toc: true
+author_profile: true
 ---
 
 {% capture fig_img %}

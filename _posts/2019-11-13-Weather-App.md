@@ -6,6 +6,7 @@ header:
 tags: 
   - Python
 toc: true
+author_profile: true
 ---
 
 This program accepts city or zip code and displays the weather. Users can check weather for as many cities or zip codes as they want. Secure API key is used to invoke the secure http web service call to openweather.
