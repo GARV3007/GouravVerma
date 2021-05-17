@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Gourav Verma"
   avatar           : "/assets/images/GV.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Data Analytics Learner and like to extract signal from noise."
+  bio              : "A Data Analytics Learner. I believe that data tells us more than just numbers, it helps us understand our users and their desires. I am practicing data science because I want the business to use data to maximize their value."
   location         : "Omaha, NE, USA"
   email            : "gourav_verma@outlook.com"
   links:
