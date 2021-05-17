@@ -24,4 +24,4 @@ author_profile: true
 " }}
 
 
-### [Github Repository](https://github.com/GARV3007/Sentiment-Analysis){: .btn .btn--primary .btn--small}
+### [Github Repository](https://github.com/GARV3007/COVID-19-vaccine-Tweets){: .btn .btn--primary .btn--small}
