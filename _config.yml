@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Gourav Verma"
   avatar           : "/assets/images/GV.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Analytics Learner xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  bio              : "I am a Data Analytics Learner and like to extract signal from noise."
   location         : "Omaha, NE, USA"
   email            : "gourav_verma@outlook.com"
   links:
