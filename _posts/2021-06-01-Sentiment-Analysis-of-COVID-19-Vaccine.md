@@ -42,20 +42,20 @@ Such questions and limited reliable answers lead to confusion and doubts overtak
 ### Data
 For this project, we used tweets about the COVID-19 vaccines distributed in the entire world. Tweets are collected using the tweepy Python package to search Twitter API for the keywords relevant to COVID-19 vaccines. The tweets are about Pfizer/BioNTech, Sinopharm, Sinovac (both Chinese-produced vaccines), Moderna, Oxford/Astrazeneca, Covaxin, and Sputnik V vaccines. 
 The tweets dataset contains below columns –
-•	Id: 		Total 60.3k values
-•	User_name: 	60.3k values ,32.6 unique values
-•	User_location: 	13.8k missing values
-•	User_description: 4158 missing values
-•	User_created: 	user creation date.
-•	User_followers:	follower count of user
-•	User_friends: 	friends count of user.
-•	User_favourites
-•	User_verified: 	True-6421, False-53.9k
-•	Date: 		Tweet date
-•	Text: 		Tweet text, 60.3k tweets
-•	Hashtags: 	hashtags
-•	Source: 		web-31%, phone-29%
-•	Retweets: 	retweet count
+ - Id: 		Total 60.3k values
+ - User_name: 	60.3k values ,32.6 unique values
+ - User_location: 	13.8k missing values
+ - User_description: 4158 missing values
+ - User_created: 	user creation date.
+ - User_followers:	follower count of user
+ - User_friends: 	friends count of user.
+ - User_favourites
+ - User_verified: 	True-6421, False-53.9k
+ - Date: 		Tweet date
+ - Text: 		Tweet text, 60.3k tweets
+ - Hashtags: 	hashtags
+ - Source: 		web-31%, phone-29%
+ - Retweets: 	retweet count
 <br />
 
 ### Methodology
