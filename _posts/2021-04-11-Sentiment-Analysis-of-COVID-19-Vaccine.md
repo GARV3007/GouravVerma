@@ -37,7 +37,6 @@ The year 2020 was full of COVID-19 spread across the world, multiple lockdowns, 
  - Can the vaccine give you COVID-19? 
  - Will we need new vaccines if the virus continues to mutate?
 Such questions and limited reliable answers lead to confusion and doubts overtaking the vaccine. As per Panacea lab every day, there are about 4 million tweets a day related to COVID-19. This study utilizes tweets to understand people’s sentiments. It will help understand the difference in sentiments for different vaccines and the change in sentiments over time.
-
 <br />
 
 ### Data
@@ -57,7 +56,6 @@ The tweets dataset contains below columns –
 •	Hashtags: 	hashtags
 •	Source: 		web-31%, phone-29%
 •	Retweets: 	retweet count
-
 <br />
 
 ### Methodology
@@ -69,6 +67,5 @@ Tweets texts are informal language forms. In tweets there could be multiple mean
 ### Results
 It’s been a long timeframe of sickness, sadness, hopelessness, and distress, but the rollout of COVID-19 vaccination globally has given rise to feelings of relaxation for so many. The information about vaccination, side effects, and efficiency is ongoing and circulating on social platforms. This project utilized the power of NLP on Twitter data to understand the sentiments of people over-vaccination. Python package NLTK was used for tokenization/detokenization. LSTM, Bi-LSTM, and 1D CNN models were trained and evaluated for accuracy. Highest accuracy of 72.7% was achieved by Bi-LSTM and it was used for implementation on COVID-19 vaccine tweets dataset. Trends of different sentiments were drawn using Tableau. We see higher number of negative tweets as compared to positive tweets. Moderna, Sinovac, Sputnik, and Johnson & Johnson show an increasing trend in negative sentiment. Pfizer seems to have a constant level of negative sentiment. USA has highest number of vaccinations done as of May 1st. As the 2nd wave of virus has hit India hard, it needs to ramp up its vaccination per hundred. For further analysis dataset with complete tweet text, if available, can be utilized.
 <br />
-
 
 ### [Github Repository](https://github.com/GARV3007/COVID-19-vaccine-Tweets){: .btn .btn--primary .btn--small}
