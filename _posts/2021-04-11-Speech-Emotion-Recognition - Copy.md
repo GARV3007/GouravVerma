@@ -53,12 +53,10 @@ author_profile: true
 6.	1st Repetition (01)
 7.	12th Actor (12)
   Female, as the actor ID number is even. 
-
  <br />
 
 ### Feature Selection
   Audio features are broadly classified into two domains: Time-domain and frequency domain . Time-domain features are Amplitude envelope, Root-mean-square energy, and Zero crossing rate. These are very easy to extract and provide an easier way to analyze audio signals. The frequency-domain features are Band energy ratio, spectral centroid, and spectral flux. Mostly sound is defined for its frequency. In time-based features, we will not have any frequency information. Similarly, with the frequency-domain representation, we will not be able to see changes in sound for the time. To overcome this issue, we have time-frequency features such as spectrogram, Mel-spectrogram, MFCC, and Constant-Q transform. During EDA and extensive analysis, each feature was analyzed. However, for the model creation, MFCC was used.
-  
  <br />
  
 ### Methodology
