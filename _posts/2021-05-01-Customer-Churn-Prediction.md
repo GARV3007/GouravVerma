@@ -24,7 +24,7 @@ author_profile: true
 " }}
 
 ### Proposal
-	This project aims to solve the churn problem for the banking domain. For any organization or company, customer churn is a major issue. A customer leaving for another product, subscription, or service is a loss for a company. Due to the direct impact on revenue, businesses need to classify customers who are likely to churn and might leave their services in near future. Apart from just recognizing the customers, they also need to identify the reason for churn, to offer them personalized perks. With the help of data mining and machine learning, we can predict the customers at the risk of churning. I am planning to perform two deliverables in this project. First, to predict bank customers likely to churn with the help of supervised learning and customer segmentation using unsupervised learning. There can be many factors causing customer churn, internal and external. In this project, I will try to find the probable reason for churning with the available data.
+This project aims to solve the churn problem for the banking domain. For any organization or company, customer churn is a major issue. A customer leaving for another product, subscription, or service is a loss for a company. Due to the direct impact on revenue, businesses need to classify customers who are likely to churn and might leave their services in near future. Apart from just recognizing the customers, they also need to identify the reason for churn, to offer them personalized perks. With the help of data mining and machine learning, we can predict the customers at the risk of churning. I am planning to perform two deliverables in this project. First, to predict bank customers likely to churn with the help of supervised learning and customer segmentation using unsupervised learning. There can be many factors causing customer churn, internal and external. In this project, I will try to find the probable reason for churning with the available data.
 <br />
 
 ### Research Questions? Benefits? Why analyzes these data?
@@ -64,6 +64,6 @@ dtypes: float64(2), int64(9), object(3)
 <br />
 
 ### Conclusion
-	In the financial and commercial world, machine learning has gotten extensive interest due to its capability of converting raw customer data into useful information. These efforts can easily fail short due to customer churning. So, it is important to focus on customers identified by the churn model. Bank and other financial institutions can greatly benefit from churn analysis. With this research, I will be trying to do customer churn prediction using data mining techniques and gain useful insights from customer’s raw information. 
+In the financial and commercial world, machine learning has gotten extensive interest due to its capability of converting raw customer data into useful information. These efforts can easily fail short due to customer churning. So, it is important to focus on customers identified by the churn model. Bank and other financial institutions can greatly benefit from churn analysis. With this research, I will be trying to do customer churn prediction using data mining techniques and gain useful insights from customer’s raw information. 
 
 ### [Github Repository](https://github.com/GARV3007/Customer-Churn-Prediction){: .btn .btn--primary .btn--small}
