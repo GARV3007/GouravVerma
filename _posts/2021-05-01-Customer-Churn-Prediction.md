@@ -39,28 +39,21 @@ It is common among many organizations to focus more on attracting new customers 
 
 ### Data
 The source of bank data is Kaggle. This dataset contains details of a bank's customers and the target variable is a binary variable reflecting the fact whether the customer left the bank (closed his account) or he/she continues to be a customer. The dataset contains 10,000 records with 14 columns. There are no missing values. Demographically the information is about customers from Spain, France, and Germany. 55% of customers are Male, and 45% are Female, with an average age of 38.9 years. Exited is the outcome (churn) variable. 
-The churn dataset contains below columns - 
-
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 10000 entries, 0 to 9999
-Data columns (total 14 columns):
- #   Column           Non-Null Count  Dtype  
----  ------           --------------  -----  
- 0   RowNumber        10000 non-null  int64  
- 1   CustomerId       10000 non-null  int64  
- 2   Surname          10000 non-null  object 
- 3   CreditScore      10000 non-null  int64  
- 4   Geography        10000 non-null  object 
- 5   Gender           10000 non-null  object 
- 6   Age              10000 non-null  int64  
- 7   Tenure           10000 non-null  int64  
- 8   Balance          10000 non-null  float64
- 9   NumOfProducts    10000 non-null  int64  
- 10  HasCrCard        10000 non-null  int64  
- 11  IsActiveMember   10000 non-null  int64  
- 12  EstimatedSalary  10000 non-null  float64
- 13  Exited           10000 non-null  int64  
-dtypes: float64(2), int64(9), object(3)
+*The churn dataset contains below columns*
+ - RowNumber  
+ - CustomerId    
+ - Surname      
+ - CreditScore  
+ - Geography   
+ - Gender      
+ - Age          
+ - Tenure    
+ - Balance    
+ - NumOfProducts    
+ - HasCrCard      
+ - IsActiveMember 
+ - EstimatedSalary  
+ - Exited       
 <br />
 
 ### Conclusion
