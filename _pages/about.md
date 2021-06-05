@@ -11,7 +11,7 @@ I'm an experienced software engineer who constantly seeks out innovative solutio
 Besides my professional career in Mainframe technology, my interest in learning more about artificial intelligence, lead me to enroll for an MS degree in Data Science at Bellevue University, NE. 
  
 #### Education
-- **Bellevue University, NE** (2019-Present)<br>
+- **Bellevue University, NE** (2019-2021)<br>
    MS in Data Science
 - **Chhatrapati Shivaji Institute of Technology, Bhilai, India** (2007-2011)<br>
    Bachelor of Enginnering in Electronics and Telecommunications
