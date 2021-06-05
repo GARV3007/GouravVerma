@@ -18,7 +18,7 @@ import requests
 import datetime
 import sys
 
-api_key = "e64a68ef9d782816def0fd03477ee93f"    # API key used to invoke open weather map API services
+api_key = "xxxxxxxxxxxxxxxxxxxxxx"    # API key used to invoke open weather map API services
 req_url = "https://api.openweathermap.org/data/2.5/weather?APPID={}&units=imperial&"    # generic part of req url
 
 
